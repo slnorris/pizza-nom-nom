@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Order Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pizza Nom Nom</h1>
+      <h2>Online Order Form</h2>
+    </header>
+    <main>
+      <form>
+        <label for="fname"><strong>First Name</strong></label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname"><strong>Last Name</strong></label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <br />
+        <label for="sizes"><strong>Pizza Sizes:</strong></label>
+        <select name="sizes" id="sizes">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+          <option value="mega">Mega</option></select
+        ><br />
+        <br />
+        <label for="crust"><strong>Crust Type:</strong></label>
+        <select name="crust" id="crust">
+          <option value="handtossed">Hand-Tossed</option>
+          <option value="thin">Thin</option>
+          <option value="stuffed">Stuffed Crust</option>
+          <option value="garlic">Garlic Butter</option></select
+        ><br />
+        <br />
+        <label for="toppings"><strong>Toppings</strong></label><br />
+        <input type="checkbox" name="pepperoni" id="pepperoni" />
+        <label for="pepperoni">Pepperoni</label><br />
+        <input type="checkbox" name="ham" id="ham" />
+        <label for="ham">Ham</label><br />
+        <input type="checkbox" name="chicken" id="chicken" />
+        <label for="chicken">Chicken</label><br />
+        <input type="checkbox" name="sausage" id="sausage" />
+        <label for="sausage">Sausage</label><br />
+        <input type="checkbox" name="philly" id="philly" />
+        <label for="philly">Philly Steak</label><br />
+        <input type="checkbox" name="jalapenos" id="jalapenos" />
+        <label for="jalapenos">Jalapenos</label><br />
+        <input type="checkbox" name="olives" id="olives" />
+        <label for="olives">Black Olives</label><br />
+        <input type="checkbox" name="onions" id="onions" />
+        <label for="onions">Onions</label><br />
+        <input type="checkbox" name="peppers" id="peppers" />
+        <label for="peppers">Bell Peppers</label><br />
+        <input type="checkbox" name="mushrooms" id="mushrooms" />
+        <label for="mushrooms">Mushrooms</label><br />
+        <br>
+        <label for="instructions"><strong>Delivery Instructions:</strong></label><br>
+        <textarea name="instructions" id="instructions" cols="30" rows="10"></textarea><br>
+        <br>
+        <input type="submit" value="Submit"><br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </form>
+      <table>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+         <label for="sampleorders"><strong>Sample Orders</strong></label><br>
+        <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Crust</th>
+            <th>Toppings</th>
+            <th>Instructions</th>
+        </tr>
+        <tr>
+            <td>Piper Tolbert</td>
+            <td>Mega</td>
+            <td>Stuffed Crust</td>
+            <td>Pepperoni, Sausage, Ham</td>
+            <td>none</td>
+        </tr>
+        <tr>
+            <td>Jax Tolbert</td>
+            <td>Medium</td>
+            <td>Stuffed Crust</td>
+            <td>Ham, Pepperoni, Onions, Bell Peppers</td>
+            <td>Ring doorbell</td>
+        </tr>
+        <tr>
+            <td>Liam Scott</td>
+            <td>Medium</td>
+            <td>Thin Crust</td>
+            <td>Chicken, Onions, Jalapenos</td>
+            <td>Come to the back door</td>
+        </tr>
+        <tr>
+            <td>Lisa Miles</td>
+            <td>Large</td>
+            <td>Garlic Butter Crust</td>
+            <td>Pepperoni, Black Olives, Mushrooms</td>
+            <td>Beware of dog</td>
+        </tr>
+        <tr>
+            <td>John Edwards</td>
+            <td>Large</td>
+            <td>Hand Tossed Crust</td>
+            <td>Pepperoni, Ham, Sausage, Black Olives, Bell Peppers, Mushrooms</td>
+            <td>none</td>
+        </tr>
+    </table>
+    </main>
+    <footer>©March 2025 Cohort</footer>
+  </body>
+</html>
