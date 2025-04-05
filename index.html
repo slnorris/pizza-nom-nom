@@ -15,13 +15,13 @@
     </header>
     <main>
       <form>
-        <div class="container1">
+      <div class="container1">
         <label class="fheader" for="fname"><strong>First Name</strong></label><br />
         <input type="text" id="fname" name="fname" /><br />
         <label class="fheader" for="lname"><strong>Last Name</strong></label><br />
         <input type="text" id="lname" name="lname" /><br />
         <br />
-        <label class="fheader" for="sizes"><strong>Pizza Sizes:</strong></label>
+        <label class="fheader" for="sizes"><strong>Pizza Size:</strong></label>
         <select name="sizes" id="sizes">
           <option value="small">Small</option>
           <option value="medium">Medium</option>
@@ -38,7 +38,8 @@
         ><br />
         <br />
         
-        <label class="fheader" for="toppings"><strong>Toppings</strong></label><br />
+        <label class="fheader" id="toppings" for="toppings"><strong>Toppings</strong></label><br />
+        <div class="toppings">
         <input type="checkbox" name="pepperoni" id="pepperoni" />
         <label for="pepperoni">Pepperoni</label><br />
         <input type="checkbox" name="ham" id="ham" />
@@ -61,6 +62,7 @@
         <label for="mushrooms">Mushrooms</label><br />
         <br>
         </div>
+      </div>
 
         <label class="fheader" for="instructions"><strong>Delivery Instructions:</strong></label><br>
         <textarea name="instructions" id="instructions" cols="65" rows="10"></textarea><br>
@@ -72,27 +74,24 @@
         <br>
         <br>
         <br>
-
       </form>
+
+    
       <table>
         <style>
-            table {
-              font-family: arial, sans-serif;
-              border-collapse: collapse;
-              width: 100%;
-            }
-            
             td, th {
-              border: 1px solid #dddddd;
+              border: 1px solid rgb(240, 240, 201);
               text-align: left;
               padding: 8px;
             }
             
             tr:nth-child(even) {
-              background-color: #dddddd;
+              background-color: rgba(110, 14, 10, .3)
             }
             </style>
-         <label for="sampleorders"><strong>Sample Orders</strong></label><br>
+         <label id="sampleorders" for="sampleorders"><strong>Sample Orders</strong></label><br>
+         
+      <div>
         <tr>
             <th>Name</th>
             <th>Size</th>
@@ -136,7 +135,8 @@
             <td>none</td>
         </tr>
     </table>
+  </div>
     </main>
-    <footer>©March 2025 Cohort</footer>
+    <footer>©March 2025 Pizza Nom Nom Enterprises</footer>
   </body>
 </html>
