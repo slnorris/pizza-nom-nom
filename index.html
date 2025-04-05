@@ -15,12 +15,13 @@
     </header>
     <main>
       <form>
-        <label for="fname"><strong>First Name</strong></label><br />
+        <div class="container1">
+        <label class="fheader" for="fname"><strong>First Name</strong></label><br />
         <input type="text" id="fname" name="fname" /><br />
-        <label for="lname"><strong>Last Name</strong></label><br />
+        <label class="fheader" for="lname"><strong>Last Name</strong></label><br />
         <input type="text" id="lname" name="lname" /><br />
         <br />
-        <label for="sizes"><strong>Pizza Sizes:</strong></label>
+        <label class="fheader" for="sizes"><strong>Pizza Sizes:</strong></label>
         <select name="sizes" id="sizes">
           <option value="small">Small</option>
           <option value="medium">Medium</option>
@@ -28,7 +29,7 @@
           <option value="mega">Mega</option></select
         ><br />
         <br />
-        <label for="crust"><strong>Crust Type:</strong></label>
+        <label class="fheader" for="crust"><strong>Crust Type:</strong></label>
         <select name="crust" id="crust">
           <option value="handtossed">Hand-Tossed</option>
           <option value="thin">Thin</option>
@@ -37,7 +38,7 @@
         ><br />
         <br />
         
-        <label for="toppings"><strong>Toppings</strong></label><br />
+        <label class="fheader" for="toppings"><strong>Toppings</strong></label><br />
         <input type="checkbox" name="pepperoni" id="pepperoni" />
         <label for="pepperoni">Pepperoni</label><br />
         <input type="checkbox" name="ham" id="ham" />
@@ -59,10 +60,14 @@
         <input type="checkbox" name="mushrooms" id="mushrooms" />
         <label for="mushrooms">Mushrooms</label><br />
         <br>
-        <label for="instructions"><strong>Delivery Instructions:</strong></label><br>
-        <textarea name="instructions" id="instructions" cols="30" rows="10"></textarea><br>
+        </div>
+
+        <label class="fheader" for="instructions"><strong>Delivery Instructions:</strong></label><br>
+        <textarea name="instructions" id="instructions" cols="65" rows="10"></textarea><br>
         <br>
-        <input type="submit" value="Submit"><br>
+      <div class="submit">
+        <input id="button" type="submit" value="Submit"><br>
+      </div>
         <br>
         <br>
         <br>
