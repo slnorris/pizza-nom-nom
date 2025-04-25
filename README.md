@@ -18,3 +18,17 @@ An app that takes user input to place a pizza order.
   - Pizza Crust
   - Pizza Toppings
   - Delivery Instructions
+
+- CSS Stylesheet added to make page look styled and branded
+  - Padding
+  - Margins
+  - Color palette from Coolors
+  - Font changes
+  - Hover features
+ 
+- JavaScript added to give order form some function
+  - Event listener
+  - Functions
+  - For loops
+  - Tiny bit of Regex (seriously, the tiniest little bit)
+  - New table row with input data
